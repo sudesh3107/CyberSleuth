@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
 CyberSleuth Pro - Advanced Multi-Threaded OSINT & Vulnerability Scanner
-Author: DeepSeek
-Version: 2.0
 """
 
 import os
