@@ -30,10 +30,10 @@ warnings.filterwarnings('ignore')
 
 # Configuration
 API_KEYS = {
-    'shodan': 'O3Jr89b3t8iMrpTEkbkRQ3U3kNVwee1B',
-    'virustotal': 'd301bcf91887abbede9226f921e06454d204adc1143948ab49a37f6ed46e00c2'
+    'shodan': 'YOUR_SHODAN_API_KEY',
+    'virustotal': 'YOUR_VIRUSTOTAL_API_KEY'
 }
-USER_AGENT = "CyberSleuthPro/2.0 (+https://github.com/deepseek-ai/CyberSleuth)"
+USER_AGENT = "CyberSleuthPro/2.0 (+https://github.com/sudesh3107/CyberSleuth)"
 THREADS = cpu_count() * 2  # Utilize all CPU cores aggressively
 TIMEOUT = 10
 
@@ -657,12 +657,12 @@ def main():
     args = parser.parse_args()
     
     print(f"""
-    ██████╗██╗   ██╗██████╗ ███████╗██████╗ ███████╗██╗  ██╗███████╗██████╗ ████████╗██╗  ██╗
-   ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██╔════╝██║  ██║██╔════╝██╔══██╗╚══██╔══╝██║  ██║
-   ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝███████╗███████║█████╗  ██████╔╝   ██║   ███████║
-   ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗╚════██║██╔══██║██╔══╝  ██╔═══╝    ██║   ██╔══██║
-   ╚██████╗   ██║   ██║  ██║███████╗██║  ██║███████║██║  ██║███████╗██║        ██║   ██║  ██║
-    ╚═════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝        ╚═╝   ╚═╝  ╚═╝
+    ██████╗████████╗ ████████╗██╗  ██╗
+   ██╔════╝██╔════╝  ╚══██╔══╝██║  ██║
+   ██║     ███████╗     ██║   ███████║
+   ██║     ╚════██║     ██║   ██╔══██║
+   ╚██████╗███████║     ██║   ██║  ██║
+    ╚═════╝╚══════╝     ╚═╝   ╚═╝  ╚═╝
     """)
     
     print(f"[*] Starting CyberSleuth Pro scan against: {args.target}")
