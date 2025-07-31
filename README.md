@@ -11,6 +11,8 @@
 > Before running CyberSleuth, make sure to update all required configuration fields—such as your **Shodan API key**—in the appropriate configuration files or environment variables.  
 >  
 > Failure to set the correct API keys will cause certain modules (like Shodan-based scans) to fail.
+>
+> Use only domains, eg. github.com 
 
 Clone the repository:
 ```bash
