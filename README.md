@@ -52,6 +52,33 @@ chmod +x cybersleuth.py
 ```bash
 ./cybersleuth.py example.com -o scan_results.json
 ```
+## OUTPUT
+
+---
+
+```bash
+[+] Scan Summary:
+  - Target IP: 93.184.216.34
+  - Domain Info: 8 records
+  - Subdomains Found: 7
+  - Open Ports: 3
+  - Technologies: 12 detected
+  - Emails Collected: 3
+  - Phone Numbers: 1
+  - Sensitive Files: 2 found
+  - Vulnerabilities: 2 detected
+  - Scan Duration: 32.14 seconds
+
+[!] VULNERABILITIES FOUND:
+
+1. Outdated Server Software (High)
+   Description: Outdated server version detected: Apache/2.4.1
+   Solution: Upgrade to the latest secure version of the web server software
+
+2. Exposed Environment File (Critical)
+   Description: .env file found containing potentially sensitive environment variables
+   Solution: Move environment variables to secure storage and remove .env from web root
+```
 
 ---
 
@@ -93,6 +120,8 @@ chmod +x cybersleuth.py
 - Rate limiting considerations
 - Error handling for unstable targets
 - Clear permission warnings
+
+
 
 ---
 
