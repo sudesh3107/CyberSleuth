@@ -60,7 +60,7 @@ chmod +x cybersleuth.py
 
 ```bash
 [+] Scan Summary:
-  - Target IP: 93.184.216.34
+  - Target IP: 00.00.00.00
   - Domain Info: 8 records
   - Subdomains Found: 7
   - Open Ports: 3
