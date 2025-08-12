@@ -36,7 +36,7 @@ chmod +x cybersleuth.py
 ## 🔍 Basic Scan
 
 ```bash
-./cybersleuth.py example.com
+python3 cybersleuth.py example.com
 ```
 
 ---
@@ -44,7 +44,7 @@ chmod +x cybersleuth.py
 ## 💪 Full Intensive Scan (Use All CPU Cores)
 
 ```bash
-./cybersleuth.py example.com --full
+python3 cybersleuth.py example.com --full
 ```
 
 ---
@@ -52,7 +52,7 @@ chmod +x cybersleuth.py
 ## 💾 Saving Results
 
 ```bash
-./cybersleuth.py example.com -o scan_results.json
+python3 cybersleuth.py example.com -o scan_results.json
 ```
 ## OUTPUT
 
