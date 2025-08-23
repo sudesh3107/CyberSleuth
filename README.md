@@ -12,7 +12,8 @@
 >  
 > Failure to set the correct API keys will cause certain modules (like Shodan-based scans) to fail.
 >
-> Use only domains, eg. github.com 
+> Use only domains, eg. github.com
+
 
 Clone the repository:
 ```bash
@@ -23,13 +24,11 @@ Install the required dependencies:
 ```bash
 pip install requests beautifulsoup4 python-whois dnspython shodan builtwith
 ```
-
-
-
-(Optional) Make the script executable:
+> for arch linux
 ```bash
-chmod +x cybersleuth.py
+pacman -S python-beautifulsoup4 python-whois python-dnspython python-shodan python-builtwith
 ```
+
 
 ---
 
