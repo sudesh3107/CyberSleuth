@@ -24,6 +24,12 @@ Install the required dependencies:
 ```bash
 pip install requests beautifulsoup4 python-whois dnspython shodan builtwith
 ```
+In case U face any errors::
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
 > for arch linux
 ```bash
 pacman -S python-beautifulsoup4 python-whois python-dnspython python-shodan python-builtwith
